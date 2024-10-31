@@ -2,7 +2,14 @@
 
 source "https://rubygems.org"
 
-gemspec
+gem "jekyll-theme-chirpy", "~> 6.3"
+gem "jekyll-paginate"
+gem "jekyll-sitemap"
+gem "jekyll-gist"
+gem "jekyll-feed"
+gem "jekyll-include-cache"
+gem "webrick"
+
 
 gem "html-proofer", "~> 5.0", group: :test
 
